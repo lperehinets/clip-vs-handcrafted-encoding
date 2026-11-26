@@ -1,0 +1,33 @@
+# Data (download separately, see data/README.md)
+data/*
+!data/README.md
+!data/.gitkeep
+*.hdf
+*.hdf5
+*.h5
+*.npy
+*.npz
+*.nii
+*.nii.gz
+
+# Large model outputs and checkpoints
+results/*
+!results/.gitkeep
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.pkl
+
+# Python and notebooks
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# OS and editors
+.DS_Store
+.idea/
+.vscode/
